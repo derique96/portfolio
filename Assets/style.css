@@ -3,14 +3,14 @@
 }
 
 header {
-  background-color: rgb(145, 170, 216);
+  background-color: rgb(116, 116, 230);
   padding: 40px;
   font-size: 36px;
   text-align: center;
 }
 
 body {
-  background-color: tan;
+  background: rgb(145, 170, 216);
 }
 
 h2 {
@@ -28,32 +28,62 @@ h1 {
   font-size: 40px;
 }
 
-nav{
-  display: right;
+nav {
   text-align: end;
   font-size: 17px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: rgb(27, 3, 129);
-  background-color: rgb(145, 170, 216);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(116, 116, 230);
 }
 
-.aside {
-  flex: wrap;
-  text-align: center;
-  background-color: tan;
-  flex-direction: colu;
+img {
+  border-style: solid;
+  border-color: black;
 }
+
+.bottom-left-1 {
+  bottom: 40px;
+  position: relative;
+  left: 20px;
+}
+.bottom-left-2 {
+  bottom: 40px;
+  position: relative;
+  left: 20px;
+}
+.bottom-left-3 {
+  bottom: 40px;
+  position: relative;
+  left: 20px;
+}
+
+.bottom-left-4 {
+  bottom: 40px;
+  position: relative;
+  left: 20px;
+}
+.bottom-left-5{
+  bottom: 40px;
+  position: relative;
+  left: 20px;
+  
+}
+
 
 .profile-pic {
   width: 400px;
   height: auto;
-  border-width: 400px;
-  border: rgb(145, 170, 216)
+}
+
+#picture:hover {
+  background-color: yellow;
+  
 }
 
 footer {
   text-align: center;
   font-size: 15px;
+  background-color: rgb(231, 211, 185);
+  margin-top: -10px;
 }
 
 #contact {
@@ -61,24 +91,10 @@ footer {
   font-size: 30px;
 }
 
-#projects {
-  text-align: right;
-}
-
-
-@media screen and (max-width:800px) {
-  nav,
-  main{
-    flex-direction: column;
-    color: lightcoral;
+@media screen and (max-width: 992px) {
+  header {
+    background: #772014;
   }
-
-  footer{
-    background-color: green;
+   nav {
+      background-color: #bb8588;
   }
-  
-  header{
-    background-color: green;
-  }
-  
-}
